@@ -1,1 +1,1 @@
-# odin-landing-page
+This project serves as a final exercise for my HTML and CSS basics as part of the foundations lesson under The Odin Project.
