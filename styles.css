@@ -1,0 +1,142 @@
+/* Importing Urbanist font from Google */
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+
+body{
+    font-family:Urbanist;
+    margin: 0px;
+}
+
+/*Header*/
+.header{
+    background-color: #1f2937;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    
+    padding:20px 80px 20px 80px;
+}
+
+.header-links{
+    display:flex;
+    gap:24px; 
+    font-size: 18px;
+    color:#e5e7eb
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+/*hero*/
+.hero{
+    background-color: #1f2937;
+    color: white;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 80px;
+    
+}
+
+.big-text{
+    font-size: 48px;
+    font-weight: bolder; 
+    color: #f9faf8;
+}
+
+.small-text{
+    font-size:18px;
+    color:#e5e7eb;
+}
+
+.hero img{
+    width: 8cm;
+    height:4.5cm;
+}
+
+/*Information*/
+.Information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:40px;
+}
+.info-header-text{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    gap:52px;
+}
+
+.Information img{
+    width:200px;
+    height:200px;
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+/*Quote*/
+.quote{
+    background-color:#E5E7EB;
+    padding:80px
+}
+
+.quote-text{
+    font-size:36px;
+    color:#1f2937;
+    font-style: italic;
+}
+
+.quote-source{
+    font-size:28px;
+    text-align:right;
+    font-weight: bold;
+}
+
+/*Sign up */
+.sign-up{
+background-color: #3882f6;
+color:white;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin:20px 80px 20px 80px;
+padding:40px;
+border-radius: 15px;
+}
+
+.sign-up-heading{
+    font-size:28px ;
+    font-weight: bolder;
+}
+
+/*Buttons*/
+button{
+    background-color: #3882f6;
+    color:white;
+    padding:8px 24px;
+    border-radius:15px;
+    border-color:white;
+    border-style: solid;
+    
+}
+
+/*Footer*/
+.footer{
+    background-color: #1f2937;
+    text-align:center;
+    color:white;
+    padding:10px 0px 10px 0px
+}
