@@ -4,6 +4,8 @@
 body{
     font-family:Urbanist;
     margin: 0px;
+    display:flex;
+    flex-direction: column;
 }
 
 /*Header*/
@@ -13,7 +15,6 @@ body{
     display:flex;
     justify-content:space-between;
     align-items: center;
-    
     padding:20px 80px 20px 80px;
 }
 
@@ -27,6 +28,11 @@ body{
 a{
     color:white;
     text-decoration: none;
+}
+
+.header img{
+    width: 50px;
+    height: 50px;
 }
 
 /*hero*/
@@ -136,7 +142,18 @@ button{
 /*Footer*/
 .footer{
     background-color: #1f2937;
-    text-align:center;
     color:white;
-    padding:10px 0px 10px 0px
+    padding:10px 0px 10px 0px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.copyright{
+    margin-bottom: 6px;
+}
+
+.credits{
+    font-size: 12px;
 }
